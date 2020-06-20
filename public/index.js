@@ -12,13 +12,12 @@ fetch(url)
     })
     .then(function (json) {
         console.log(json);
-        displayFilm(json);
     })
     .catch(err => console.log(err));
 
 function displayFilm(json) {
    for (let i = 0; i < json.title; i++) {
-       let 
+       let title = document.createElement('li');
    }
     
 
