@@ -16,8 +16,11 @@ fetch(url)
     .catch(err => console.log(err));
 
 function displayFilm(json) {
-   for (let i = 0; i < json.title; i++) {
+   for (let i = 0; i < json.results.title; i++) {
        let title = document.createElement('li');
+       title.src = json.results.title
+
+       document.body.appendChild(list);
    }
     
 
