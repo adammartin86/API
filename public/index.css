@@ -1,0 +1,24 @@
+h1 {
+    background-color: yellow;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+ul {
+    color: white;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.8;
+}
+
+body {
+    background-image: url('https://images6.alphacoders.com/420/thumb-1920-420266.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
