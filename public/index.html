@@ -9,23 +9,22 @@
 </head>
 
 <body>
-  <h1>GMDB</h1>
+  <h1>SGMDB</h1>
+  <div class="sort">
+    <form action=>
+      <label for="films">Sort films by:</label>
+      <select name="films" id="films">
+        <option value="alphabetical">Year Released</option>
+        <option value="RTcritics">RT critics score</option>
+        <option value="releaseYear">A-Z</option>
+      </select>
+      <button class="submit">Submit</button>
+    </form>
+  </div>
+ <div class="results">
 
-  <form action=>
-    <label for="films">Sort films by:</label>
-    <select name="films" id="films">
-      <option value="alphabetical">A-Z</option>
-      <option value="RTcritics">RT critics score</option>
-      <option value="releaseYear">Year Released</option>
-    </select>
-    <button class="submit">Submit</button>
-  </form>
-  <ul>
   
-
-
-
-  </ul>
+ </div>
 
   <!--FIREBASE-->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
