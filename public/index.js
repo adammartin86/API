@@ -38,7 +38,7 @@ function displayFilm(json) {
 
 
 
-        var poster_path = './Assets/' + film.title.split(' ').join('%20') + '.jpg';
+        var poster_path = './Assets/' + film.title.toLowerCase().replace(/[^a-z0-9 ]/g, "").split(' ').join('_') + '.jpg';
 
         console.log('poster_path', poster_path);
 
